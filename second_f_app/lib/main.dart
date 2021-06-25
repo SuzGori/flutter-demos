@@ -27,7 +27,7 @@ class PageA extends StatelessWidget {
                 gotoBData = text;
               },
             ),
-            RaisedButton(
+            ElevatedButton(
               child: Text('B画面に値渡し'),
               onPressed: () {
                 // Navigator.of(context).push(_createRoute(nextVal));
